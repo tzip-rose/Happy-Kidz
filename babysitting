@@ -1,0 +1,47 @@
+<div class= childrenInfo>
+     <p class= child1> <u>Child 1 </u> </p>
+   <label for= "gender"> Gender: </label>
+   <select name="eachChild" id="eachChild">
+    <option value="girl"> Girl</option>
+    <option value="boy"> Boy </option>
+   </select>
+   <br> <br>
+  <label for= "age"> Age: </label>
+   <select name="age" id="age">
+    <option value="newborn"> Newborn</option>
+    <option value="infant"> Infant </option>
+     <option value="toddler"> Toddler</option>
+    <option value="schoolAge"> School Age </option>
+   </select>
+   <br><br>
+   <label for= hobbies> Please list some of their hobbies: </label>
+    <input type="text" id="hobbies" name="hobbies" placeholder= "List them here">  
+      <p class= child2> <u>Child 2 </u> </p>
+   <label for= "gender"> Gender: </label>
+   <select name="eachChild" id="eachChild">
+    <option value="girl"> Girl</option>
+    <option value="boy"> Boy </option>
+   </select>
+   <br> <br>
+  <label for= "age"> Age: </label>
+   <select name="age" id="age">
+    <option value="newborn"> Newborn</option>
+    <option value="infant"> Infant </option>
+     <option value="toddler"> Toddler</option>
+    <option value="schoolAge"> School Age </option>
+   </select>
+   <br><br>
+   <label for= hobbies> Please list some of their hobbies: </label>
+    <input type="text" id="hobbies" name="hobbies" placeholder= "List them here">  
+  </div>
+  </div>
+<br> <br>  <input type="button" id="CalcPrice" value="Calculate Price" onclick="calculatePrice()">
+  </div>
+<h2 id= "payment"> Please choose your payment type: </h2>
+<p id= "cash"> The first way to pay us cash which you can oay directly to the babysitter.</p><br> <input type="button" id= "cash" value="Use cash">
+<p id= "paypal"> Paypal option allows you to pay before the service is provided. </p>
+ <input type="button" id= "penpal" value="Use Penpal">
+  <p id= "check"> Use our check option to directly pay your babysitter.</p>
+ <input type="button" id= "check" value="Use check">
+<p id= "zelle"> Our Zelle option is also available.</p>  <input type="button" id= "zelle" value="Use Zelle">
+</div>
